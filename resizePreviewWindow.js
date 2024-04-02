@@ -11,7 +11,7 @@ window.onmessage = function(e){
         window.resizeTo(win_width, win_height);
         window.moveTo(sidebar_width, 0);
       } else if(e.data.size === 'fullscreen') {
-        var sidebar_width = 10
+        var sidebar_width = 40
         var win_width = screen.width - sidebar_width
         var win_height = screen.height
         window.resizeTo(win_width, win_height);
